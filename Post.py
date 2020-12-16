@@ -16,8 +16,8 @@ browser.get("https://sw.wikipedia.org/wiki/Mwanzo")
 
 browser.find_element_by_id("pt-login").click()
 
-jina="UmojaWetu"
-siri="agmen130498"
+jina=""
+siri=""
 
 mtumiaji = browser.find_element_by_id("wpName1")
 mtumiaji.send_keys(jina)    
